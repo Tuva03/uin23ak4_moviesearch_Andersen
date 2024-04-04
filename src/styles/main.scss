@@ -1,0 +1,62 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+body {
+    header {}
+
+    main {
+        max-width: 600px;
+
+        form {
+            font-size: 20px;
+
+            label {
+                margin-right: 1rem;
+            }
+
+            input#search {
+                font-size: 20px;
+            }
+
+            input {
+                font-size: 20px;
+            }
+        }
+
+        ul.book-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            max-width: 600px;
+            width: 600px;
+            padding: 0;
+
+            li {
+                background-color: antiquewhite;
+                margin: 1.5rem 0rem;
+                padding: 1rem;
+                border-style: solid;
+                border-color: black;
+                border-radius: 5px;
+            }
+
+            div.book-card {
+                a {
+                    border: solid;
+                    padding: 0.5rem;
+                    border-radius: 5px;
+                    background-color: rgb(250, 247, 242);
+                    color: rgb(28, 18, 86);
+                }
+            }
+
+
+        }
+    }
+}
